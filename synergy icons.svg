@@ -233,19 +233,6 @@
     <filter
        inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
-       id="filter3259-2"
-       x="-0.00059143931"
-       width="1.0011829"
-       y="-0.00083144318"
-       height="1.0016629">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="0.78646153"
-         id="feGaussianBlur3261-39" />
-    </filter>
-    <filter
-       inkscape:collect="always"
-       style="color-interpolation-filters:sRGB"
        id="filter3259-9"
        x="-0.00059143931"
        width="1.0011829"
@@ -257,17 +244,36 @@
          id="feGaussianBlur3261-67" />
     </filter>
     <filter
-       inkscape:collect="always"
-       style="color-interpolation-filters:sRGB"
-       id="filter3259-8"
-       x="-0.00059143931"
-       width="1.0011829"
-       y="-0.00083144318"
-       height="1.0016629">
+       id="filter6498"
+       inkscape:label="Drop Shadow"
+       style="color-interpolation-filters:sRGB;">
+      <feFlood
+         id="feFlood6488"
+         result="flood"
+         flood-color="rgb(0,0,0)"
+         flood-opacity="1" />
+      <feComposite
+         id="feComposite6490"
+         result="composite1"
+         operator="in"
+         in2="SourceGraphic"
+         in="flood" />
       <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="0.78646153"
-         id="feGaussianBlur3261-2" />
+         id="feGaussianBlur6492"
+         result="blur"
+         stdDeviation="0"
+         in="composite1" />
+      <feOffset
+         id="feOffset6494"
+         result="offset"
+         dy="3"
+         dx="3" />
+      <feComposite
+         id="feComposite6496"
+         result="composite2"
+         operator="over"
+         in2="offset"
+         in="SourceGraphic" />
     </filter>
   </defs>
   <sodipodi:namedview
@@ -279,11 +285,11 @@
      inkscape:window-height="1017"
      inkscape:window-width="1920"
      showgrid="false"
-     inkscape:current-layer="g4124"
+     inkscape:current-layer="g6418"
      inkscape:document-units="px"
-     inkscape:cy="452.77614"
-     inkscape:cx="1060.5689"
-     inkscape:zoom="0.32"
+     inkscape:cy="26.4563"
+     inkscape:cx="107.9725"
+     inkscape:zoom="1.8101934"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -675,77 +681,709 @@
        inkscape:groupmode="layer"
        id="g2229"
        inkscape:label="[export]"
-       style="display:none;">
+       style="display:inline;mix-blend-mode:normal">
       <text
          id="text2227"
-         y="120.6388"
-         x="17.623358"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter3259-8)"
+         y="-192.40132"
+         x="26.41242"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            id="tspan2205"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
-           y="120.6388"
-           x="17.623358"
-           sodipodi:role="line">9:;&lt;=&gt;?@ABCDEFGH</tspan><tspan
+           y="-192.40132"
+           x="26.41242"
+           sodipodi:role="line" /><tspan
            id="tspan2207"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
-           y="267.11316"
-           x="17.623358"
-           sodipodi:role="line">IJKLMNOPQRSTUVWXYZ[\</tspan><tspan
+           y="-45.926975"
+           x="26.41242"
+           sodipodi:role="line" /><tspan
            id="tspan2209"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
-           y="413.58749"
-           x="17.623358"
-           sodipodi:role="line">]^_`abcdefghijklmnopq</tspan><tspan
+           y="100.54737"
+           x="26.41242"
+           sodipodi:role="line">^_`abcdefghijklmnopq</tspan><tspan
            id="tspan2211"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
-           y="560.06183"
-           x="17.623358"
+           y="247.02171"
+           x="26.41242"
            sodipodi:role="line">rstuvwxyz{|}~ ¡¢£¤¥¦§</tspan><tspan
            id="tspan2213"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
-           y="706.53619"
-           x="17.623358"
+           y="393.49606"
+           x="26.41242"
            sodipodi:role="line">¨©ª«¬­®¯°±²³´µ¶·¸¹º»¿ÀÁÂ</tspan><tspan
            id="tspan2215"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
-           y="853.01056"
-           x="17.623358"
+           y="539.9704"
+           x="26.41242"
            sodipodi:role="line">ÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ</tspan><tspan
            id="tspan2217"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
-           y="999.48486"
-           x="17.623358"
+           y="686.44476"
+           x="26.41242"
            sodipodi:role="line">×ØÙÚÛÜÝÞßàáâãäåæçèéê</tspan><tspan
            id="tspan2219"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
-           y="1145.9592"
-           x="17.623358"
+           y="832.91913"
+           x="26.41242"
            sodipodi:role="line">ëìíîïðñòóôõö÷øùúûüýþÿĞ</tspan><tspan
            id="tspan2221"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
-           y="1292.4336"
-           x="17.623358"
+           y="979.39343"
+           x="26.41242"
            sodipodi:role="line">ğİıŀŒœŞşŠšŸƒˆ˜–—‘’‚“”</tspan><tspan
            id="tspan2223"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
-           y="1438.908"
-           x="17.623358"
+           y="1125.8678"
+           x="26.41242"
            sodipodi:role="line">„†‡•…‰‹›™∙</tspan><tspan
            id="tspan2225"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
-           y="1585.3823"
-           x="17.623358"
+           y="1272.3422"
+           x="26.41242"
            sodipodi:role="line"></tspan></text>
     </g>
     <g
-       style="display:inline"
+       style="display:none;mix-blend-mode:normal"
        inkscape:label="[export] copy"
+       id="g6418"
+       inkscape:groupmode="layer">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter6498)"
+         x="14.50071"
+         y="-198.61613"
+         id="text6416"><tspan
+           sodipodi:role="line"
+           x="14.50071"
+           y="-198.61613"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;fill:#ffffff;stroke-width:0.9375px"
+           id="tspan6394" /><tspan
+           sodipodi:role="line"
+           x="14.50071"
+           y="-52.141788"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;fill:#ffffff;stroke-width:0.9375px"
+           id="tspan6396" /><tspan
+           sodipodi:role="line"
+           x="14.50071"
+           y="94.332558"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;fill:#ffffff;stroke-width:0.9375px"
+           id="tspan6414">c</tspan></text>
+    </g>
+    <g
+       style="display:none;mix-blend-mode:normal"
+       inkscape:label="[export] bleed"
+       id="g6392"
+       inkscape:groupmode="layer">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="26.41242"
+         y="-192.40132"
+         id="text6390"><tspan
+           sodipodi:role="line"
+           x="26.41242"
+           y="-192.40132"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan6368" /><tspan
+           sodipodi:role="line"
+           x="26.41242"
+           y="-45.926975"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan6370" /><tspan
+           sodipodi:role="line"
+           x="26.41242"
+           y="100.54737"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan6372">bcdefghijklmnopq</tspan><tspan
+           sodipodi:role="line"
+           x="26.41242"
+           y="247.02171"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan6374">rstuvwxyz{|}~ ¡¢£¤¥¦§</tspan><tspan
+           sodipodi:role="line"
+           x="26.41242"
+           y="393.49606"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan6376">¨©ª«¬­®¯°±²³´µ¶·¸¹º»¿ÀÁÂ</tspan><tspan
+           sodipodi:role="line"
+           x="26.41242"
+           y="539.9704"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan6378">ÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ</tspan><tspan
+           sodipodi:role="line"
+           x="26.41242"
+           y="686.44476"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan6380">×ØÙÚÛÜÝÞßàáâãäåæçèéê</tspan><tspan
+           sodipodi:role="line"
+           x="26.41242"
+           y="832.91913"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan6382">ëìíîïðñòóôõö÷øùúûüýþÿĞ</tspan><tspan
+           sodipodi:role="line"
+           x="26.41242"
+           y="979.39343"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan6384">ğİıŀŒœŞşŠšŸƒˆ˜–—‘’‚“”</tspan><tspan
+           sodipodi:role="line"
+           x="26.41242"
+           y="1125.8678"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan6386">„†‡•…‰‹›™∙</tspan><tspan
+           sodipodi:role="line"
+           x="26.41242"
+           y="1272.3422"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan6388"></tspan></text>
+    </g>
+    <g
+       style="display:none;mix-blend-mode:normal"
+       inkscape:label="[export] armor"
+       id="g6192"
+       inkscape:groupmode="layer">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="26.41242"
+         y="-192.40132"
+         id="text6190"><tspan
+           sodipodi:role="line"
+           x="26.41242"
+           y="-192.40132"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan6168" /><tspan
+           sodipodi:role="line"
+           x="26.41242"
+           y="-45.926975"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan6170" /><tspan
+           sodipodi:role="line"
+           x="26.41242"
+           y="100.54737"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan6188">a</tspan></text>
+    </g>
+    <g
+       style="display:none;mix-blend-mode:normal"
+       inkscape:label="[export] skull"
+       id="g6122"
+       inkscape:groupmode="layer">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="26.41242"
+         y="-192.40132"
+         id="text6120"><tspan
+           sodipodi:role="line"
+           x="26.41242"
+           y="-192.40132"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan6098" /><tspan
+           sodipodi:role="line"
+           x="26.41242"
+           y="-45.926975"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan6100" /><tspan
+           sodipodi:role="line"
+           x="26.41242"
+           y="100.54737"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan6118">^</tspan></text>
+    </g>
+    <g
+       style="display:none;mix-blend-mode:normal"
+       inkscape:label="[export] stopwatchblast"
+       id="g6052"
+       inkscape:groupmode="layer">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="18.126013"
+         y="-191.36552"
+         id="text6050"><tspan
+           sodipodi:role="line"
+           x="18.126013"
+           y="-191.36552"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan6028" /><tspan
+           sodipodi:role="line"
+           x="18.126013"
+           y="-44.891178"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan6030" /><tspan
+           sodipodi:role="line"
+           x="18.126013"
+           y="101.58317"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan6048">]</tspan></text>
+    </g>
+    <g
+       style="display:none;mix-blend-mode:normal"
+       inkscape:label="[export] radioactive"
+       id="g5972"
+       inkscape:groupmode="layer">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="26.41242"
+         y="-46.35339"
+         id="text5970"><tspan
+           sodipodi:role="line"
+           x="26.41242"
+           y="-46.35339"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan5948" /><tspan
+           sodipodi:role="line"
+           x="26.41242"
+           y="100.12096"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan5968">\</tspan></text>
+    </g>
+    <g
+       style="display:none;mix-blend-mode:normal"
+       inkscape:label="[export] skullblast"
+       id="g5892"
+       inkscape:groupmode="layer">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="26.41242"
+         y="-46.35339"
+         id="text5890"><tspan
+           sodipodi:role="line"
+           x="26.41242"
+           y="-46.35339"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan5868" /><tspan
+           sodipodi:role="line"
+           x="26.41242"
+           y="100.12096"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan5888">[</tspan></text>
+    </g>
+    <g
+       style="display:none;mix-blend-mode:normal"
+       inkscape:label="[export] healblock"
+       id="g5812"
+       inkscape:groupmode="layer">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="26.41242"
+         y="-46.35339"
+         id="text5810"><tspan
+           sodipodi:role="line"
+           x="26.41242"
+           y="-46.35339"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan5788" /><tspan
+           sodipodi:role="line"
+           x="26.41242"
+           y="100.12096"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan5808">Z</tspan></text>
+    </g>
+    <g
+       style="display:none;mix-blend-mode:normal"
+       inkscape:label="[export] stopwatchimmunity"
+       id="g5732"
+       inkscape:groupmode="layer">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="26.41242"
+         y="-46.35339"
+         id="text5730"><tspan
+           sodipodi:role="line"
+           x="26.41242"
+           y="-46.35339"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan5708" /><tspan
+           sodipodi:role="line"
+           x="26.41242"
+           y="100.12096"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan5728">Y</tspan></text>
+    </g>
+    <g
+       style="display:none;mix-blend-mode:normal"
+       inkscape:label="[export] starimmunity"
+       id="g5652"
+       inkscape:groupmode="layer">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="26.41242"
+         y="-46.35339"
+         id="text5650"><tspan
+           sodipodi:role="line"
+           x="26.41242"
+           y="-46.35339"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan5628" /><tspan
+           sodipodi:role="line"
+           x="26.41242"
+           y="100.12096"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan5648">X</tspan></text>
+    </g>
+    <g
+       style="display:none;mix-blend-mode:normal"
+       inkscape:label="[export] crossedswords"
+       id="g5572"
+       inkscape:groupmode="layer">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="26.41242"
+         y="-46.35339"
+         id="text5570"><tspan
+           sodipodi:role="line"
+           x="26.41242"
+           y="-46.35339"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan5548" /><tspan
+           sodipodi:role="line"
+           x="26.41242"
+           y="100.12096"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan5568">W</tspan></text>
+    </g>
+    <g
+       style="display:none;mix-blend-mode:normal"
+       inkscape:label="[export] specialattack-"
+       id="g5492"
+       inkscape:groupmode="layer">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="26.41242"
+         y="-46.35339"
+         id="text5490"><tspan
+           sodipodi:role="line"
+           x="26.41242"
+           y="-46.35339"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan5468" /><tspan
+           sodipodi:role="line"
+           x="26.41242"
+           y="100.12096"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan5488">V</tspan></text>
+    </g>
+    <g
+       style="display:none;mix-blend-mode:normal"
+       inkscape:label="[export] specialattack+"
+       id="g5412"
+       inkscape:groupmode="layer">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="26.41242"
+         y="-46.35339"
+         id="text5410"><tspan
+           sodipodi:role="line"
+           x="26.41242"
+           y="-46.35339"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan5388" /><tspan
+           sodipodi:role="line"
+           x="26.41242"
+           y="100.12096"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan5408">U</tspan></text>
+    </g>
+    <g
+       style="display:none;mix-blend-mode:normal"
+       inkscape:label="[export] unknown"
+       id="g5332"
+       inkscape:groupmode="layer">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="26.41242"
+         y="-46.35339"
+         id="text5330"><tspan
+           sodipodi:role="line"
+           x="26.41242"
+           y="-46.35339"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan5308" /><tspan
+           sodipodi:role="line"
+           x="26.41242"
+           y="100.12096"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan5328">T</tspan></text>
+    </g>
+    <g
+       style="display:none;mix-blend-mode:normal"
+       inkscape:label="[export] specialattack"
+       id="g5252"
+       inkscape:groupmode="layer">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="26.41242"
+         y="-46.35339"
+         id="text5250"><tspan
+           sodipodi:role="line"
+           x="26.41242"
+           y="-46.35339"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan5228" /><tspan
+           sodipodi:role="line"
+           x="26.41242"
+           y="100.12096"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan5248">S</tspan></text>
+    </g>
+    <g
+       style="display:none;mix-blend-mode:normal"
+       inkscape:label="[export] resonate"
+       id="g5164"
+       inkscape:groupmode="layer">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="26.41242"
+         y="-46.35339"
+         id="text5162"><tspan
+           sodipodi:role="line"
+           x="26.41242"
+           y="-46.35339"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan5140" /><tspan
+           sodipodi:role="line"
+           x="26.41242"
+           y="100.12096"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan5160">R</tspan></text>
+    </g>
+    <g
+       style="display:none;mix-blend-mode:normal"
+       inkscape:label="[export] bleedimmune"
+       id="g5080"
+       inkscape:groupmode="layer">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="26.41242"
+         y="-46.35339"
+         id="text5078"><tspan
+           sodipodi:role="line"
+           x="26.41242"
+           y="-46.35339"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan5056" /><tspan
+           sodipodi:role="line"
+           x="26.41242"
+           y="100.12096"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan5076">Q</tspan></text>
+    </g>
+    <g
+       style="display:none;mix-blend-mode:normal"
+       inkscape:label="[export] precision"
+       id="g4920"
+       inkscape:groupmode="layer">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="26.41242"
+         y="-46.35339"
+         id="text4918"><tspan
+           sodipodi:role="line"
+           x="26.41242"
+           y="-46.35339"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan4896" /><tspan
+           sodipodi:role="line"
+           x="26.41242"
+           y="100.12096"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan4916">P</tspan></text>
+    </g>
+    <g
+       style="display:none;mix-blend-mode:normal"
+       inkscape:label="[export] lightningbolt"
+       id="g4786"
+       inkscape:groupmode="layer">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="26.41242"
+         y="-46.35339"
+         id="text4784"><tspan
+           sodipodi:role="line"
+           x="26.41242"
+           y="-46.35339"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan4762" /><tspan
+           sodipodi:role="line"
+           x="26.41242"
+           y="100.12096"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan4782">O</tspan></text>
+    </g>
+    <g
+       style="display:none;mix-blend-mode:normal"
+       inkscape:label="[export] power"
+       id="g4706"
+       inkscape:groupmode="layer">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="26.41242"
+         y="-46.35339"
+         id="text4704"><tspan
+           sodipodi:role="line"
+           x="26.41242"
+           y="-46.35339"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan4682" /><tspan
+           sodipodi:role="line"
+           x="26.41242"
+           y="100.12096"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan4702">N</tspan></text>
+    </g>
+    <g
+       style="display:none;mix-blend-mode:normal"
+       inkscape:label="[export] powergain"
+       id="g4626"
+       inkscape:groupmode="layer">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="26.41242"
+         y="-46.35339"
+         id="text4624"><tspan
+           sodipodi:role="line"
+           x="26.41242"
+           y="-46.35339"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan4602" /><tspan
+           sodipodi:role="line"
+           x="26.41242"
+           y="100.12096"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan4622">M</tspan></text>
+    </g>
+    <g
+       style="display:none;mix-blend-mode:normal"
+       inkscape:label="[export] swordblood"
+       id="g4546"
+       inkscape:groupmode="layer">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="26.41242"
+         y="-46.35339"
+         id="text4544"><tspan
+           sodipodi:role="line"
+           x="26.41242"
+           y="-46.35339"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan4522" /><tspan
+           sodipodi:role="line"
+           x="26.41242"
+           y="100.12096"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan4542">L</tspan></text>
+    </g>
+    <g
+       style="display:none;mix-blend-mode:normal"
+       inkscape:label="[export] stopwatch"
+       id="g4466"
+       inkscape:groupmode="layer">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="26.41242"
+         y="-46.35339"
+         id="text4464"><tspan
+           sodipodi:role="line"
+           x="26.41242"
+           y="-46.35339"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan4442" /><tspan
+           sodipodi:role="line"
+           x="26.41242"
+           y="100.12096"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan4462">K</tspan></text>
+    </g>
+    <g
+       style="display:none;mix-blend-mode:normal"
+       inkscape:label="[export] thorns"
+       id="g4386"
+       inkscape:groupmode="layer">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="26.41242"
+         y="-46.35339"
+         id="text4384"><tspan
+           sodipodi:role="line"
+           x="26.41242"
+           y="-46.35339"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan4362" /><tspan
+           sodipodi:role="line"
+           x="26.41242"
+           y="100.12096"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan4382">J</tspan></text>
+    </g>
+    <g
+       style="display:none;mix-blend-mode:normal"
+       inkscape:label="[export] labyrinth"
+       id="g4306"
+       inkscape:groupmode="layer">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="26.41242"
+         y="-46.35339"
+         id="text4304"><tspan
+           sodipodi:role="line"
+           x="26.41242"
+           y="-46.35339"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan4282" /><tspan
+           sodipodi:role="line"
+           x="26.41242"
+           y="100.12096"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan4302">I</tspan></text>
+    </g>
+    <g
+       style="display:none"
+       inkscape:label="[export] vitality"
+       id="g4215"
+       inkscape:groupmode="layer">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="17.623358"
+         y="120.6388"
+         id="text4213"><tspan
+           sodipodi:role="line"
+           x="17.623358"
+           y="120.6388"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan4211">H</tspan></text>
+    </g>
+    <g
+       style="display:none"
+       inkscape:label="[export] deepwounds"
        id="g4124"
        inkscape:groupmode="layer">
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter3259-8)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="17.623358"
          y="120.6388"
          id="text4122"><tspan
@@ -753,67 +1391,16 @@
            x="17.623358"
            y="120.6388"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
-           id="tspan4100">9:;&lt;=&gt;?@ABCDEFGH</tspan><tspan
-           sodipodi:role="line"
-           x="17.623358"
-           y="267.11316"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
-           id="tspan4102">IJKLMNOPQRSTUVWXYZ[\</tspan><tspan
-           sodipodi:role="line"
-           x="17.623358"
-           y="413.58749"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
-           id="tspan4104">]^_`abcdefghijklmnopq</tspan><tspan
-           sodipodi:role="line"
-           x="17.623358"
-           y="560.06183"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
-           id="tspan4106">rstuvwxyz{|}~ ¡¢£¤¥¦§</tspan><tspan
-           sodipodi:role="line"
-           x="17.623358"
-           y="706.53619"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
-           id="tspan4108">¨©ª«¬­®¯°±²³´µ¶·¸¹º»¿ÀÁÂ</tspan><tspan
-           sodipodi:role="line"
-           x="17.623358"
-           y="853.01056"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
-           id="tspan4110">ÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ</tspan><tspan
-           sodipodi:role="line"
-           x="17.623358"
-           y="999.48486"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
-           id="tspan4112">×ØÙÚÛÜÝÞßàáâãäåæçèéê</tspan><tspan
-           sodipodi:role="line"
-           x="17.623358"
-           y="1145.9592"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
-           id="tspan4114">ëìíîïðñòóôõö÷øùúûüýþÿĞ</tspan><tspan
-           sodipodi:role="line"
-           x="17.623358"
-           y="1292.4336"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
-           id="tspan4116">ğİıŀŒœŞşŠšŸƒˆ˜–—‘’‚“”</tspan><tspan
-           sodipodi:role="line"
-           x="17.623358"
-           y="1438.908"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
-           id="tspan4118">„†‡•…‰‹›™∙</tspan><tspan
-           sodipodi:role="line"
-           x="17.623358"
-           y="1585.3823"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
-           id="tspan4120"></tspan></text>
+           id="tspan4120">G</tspan></text>
     </g>
     <g
-       sodipodi:insensitive="true"
        style="display:none"
        inkscape:label="[export] shield"
        id="g4033"
        inkscape:groupmode="layer">
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter3259-8)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="17.623358"
          y="120.6388"
          id="text4031"><tspan
@@ -824,14 +1411,13 @@
            id="tspan4029">F</tspan></text>
     </g>
     <g
-       sodipodi:insensitive="true"
        style="display:none"
        inkscape:label="[export] agamotto"
        id="g3918"
        inkscape:groupmode="layer">
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter3259-8)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="17.623358"
          y="120.6388"
          id="text3916"><tspan
@@ -842,14 +1428,13 @@
            id="tspan3914">E</tspan></text>
     </g>
     <g
-       sodipodi:insensitive="true"
        style="display:none"
        inkscape:label="[export] criticaldamage"
        id="g3827"
        inkscape:groupmode="layer">
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter3259-8)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="17.623358"
          y="120.6388"
          id="text3825"><tspan
@@ -860,14 +1445,13 @@
            id="tspan3823">D</tspan></text>
     </g>
     <g
-       sodipodi:insensitive="true"
        style="display:none"
        inkscape:label="[export] powertransfer"
        id="g3735"
        inkscape:groupmode="layer">
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter3259-8)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="17.623358"
          y="120.6388"
          id="text3733"><tspan
@@ -878,14 +1462,13 @@
            id="tspan3731">C</tspan></text>
     </g>
     <g
-       sodipodi:insensitive="true"
        style="display:none"
        inkscape:label="[export] perfectblock"
        id="g3644"
        inkscape:groupmode="layer">
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter3259-8)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="17.623358"
          y="120.6388"
          id="text3642"><tspan
@@ -896,14 +1479,13 @@
            id="tspan3640">B</tspan></text>
     </g>
     <g
-       sodipodi:insensitive="true"
        style="display:none"
        inkscape:label="[export] armorup"
        id="g3553"
        inkscape:groupmode="layer">
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter3259-8)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="17.623358"
          y="120.6388"
          id="text3551"><tspan
@@ -914,14 +1496,13 @@
            id="tspan3549">A</tspan></text>
     </g>
     <g
-       sodipodi:insensitive="true"
        style="display:none"
        inkscape:label="[export] armorbreak"
        id="g3462"
        inkscape:groupmode="layer">
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter3259-8)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="17.623358"
          y="120.6388"
          id="text3460"><tspan
@@ -932,14 +1513,13 @@
            id="tspan3458">@</tspan></text>
     </g>
     <g
-       sodipodi:insensitive="true"
        style="display:none"
        inkscape:label="[export] stunimmune"
        id="g3371"
        inkscape:groupmode="layer">
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter3259-8)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="17.623358"
          y="120.6388"
          id="text3369"><tspan
@@ -950,14 +1530,13 @@
            id="tspan3367">&gt;</tspan></text>
     </g>
     <g
-       sodipodi:insensitive="true"
        style="display:none"
        inkscape:label="[export] pvp"
        id="g3280"
        inkscape:groupmode="layer">
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter3259-8)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="17.623358"
          y="120.6388"
          id="text3278"><tspan
@@ -968,14 +1547,13 @@
            id="tspan3276">=</tspan></text>
     </g>
     <g
-       sodipodi:insensitive="true"
        style="display:none"
        inkscape:label="[export] pacify"
        id="g3189"
        inkscape:groupmode="layer">
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter3259-8)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="17.623358"
          y="120.6388"
          id="text3187"><tspan
@@ -986,14 +1564,13 @@
            id="tspan3185">&lt;</tspan></text>
     </g>
     <g
-       sodipodi:insensitive="true"
        style="display:none"
        inkscape:label="[export] pittance"
        id="g2996"
        inkscape:groupmode="layer">
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter3259-8)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="17.623358"
          y="120.6388"
          id="text2994"><tspan
@@ -1004,14 +1581,13 @@
            id="tspan2992">;</tspan></text>
     </g>
     <g
-       sodipodi:insensitive="true"
        style="display:none"
-       inkscape:label="[export] reflect damage"
+       inkscape:label="[export] reflectdamage"
        id="g2905"
        inkscape:groupmode="layer">
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter3259-8)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="17.623358"
          y="120.6388"
          id="text2903"><tspan
@@ -1022,14 +1598,13 @@
            id="tspan2901">:</tspan></text>
     </g>
     <g
-       sodipodi:insensitive="true"
        style="display:none"
        inkscape:label="[export] mesmerize"
        id="g2814"
        inkscape:groupmode="layer">
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter3259-8)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="17.623358"
          y="120.6388"
          id="text2812"><tspan
@@ -1040,14 +1615,13 @@
            id="tspan2810">9</tspan></text>
     </g>
     <g
-       sodipodi:insensitive="true"
        style="display:none"
        inkscape:label="[export] jackolantern"
        id="g2784"
        inkscape:groupmode="layer">
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter3259-8)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="17.623358"
          y="120.6388"
          id="text2782"><tspan
@@ -1055,67 +1629,16 @@
            x="17.623358"
            y="120.6388"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
-           id="tspan2760">89:;&lt;=&gt;?@ABCDEFGH</tspan><tspan
-           sodipodi:role="line"
-           x="17.623358"
-           y="267.11316"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
-           id="tspan2762">IJKLMNOPQRSTUVWXYZ[\</tspan><tspan
-           sodipodi:role="line"
-           x="17.623358"
-           y="413.58749"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
-           id="tspan2764">]^_`abcdefghijklmnopq</tspan><tspan
-           sodipodi:role="line"
-           x="17.623358"
-           y="560.06183"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
-           id="tspan2766">rstuvwxyz{|}~ ¡¢£¤¥¦§</tspan><tspan
-           sodipodi:role="line"
-           x="17.623358"
-           y="706.53619"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
-           id="tspan2768">¨©ª«¬­®¯°±²³´µ¶·¸¹º»¿ÀÁÂ</tspan><tspan
-           sodipodi:role="line"
-           x="17.623358"
-           y="853.01056"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
-           id="tspan2770">ÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ</tspan><tspan
-           sodipodi:role="line"
-           x="17.623358"
-           y="999.48486"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
-           id="tspan2772">×ØÙÚÛÜÝÞßàáâãäåæçèéê</tspan><tspan
-           sodipodi:role="line"
-           x="17.623358"
-           y="1145.9592"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
-           id="tspan2774">ëìíîïðñòóôõö÷øùúûüýþÿĞ</tspan><tspan
-           sodipodi:role="line"
-           x="17.623358"
-           y="1292.4336"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
-           id="tspan2776">ğİıŀŒœŞşŠšŸƒˆ˜–—‘’‚“”</tspan><tspan
-           sodipodi:role="line"
-           x="17.623358"
-           y="1438.908"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
-           id="tspan2778">„†‡•…‰‹›™∙</tspan><tspan
-           sodipodi:role="line"
-           x="17.623358"
-           y="1585.3823"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
-           id="tspan2780"></tspan></text>
+           id="tspan2780">8</tspan></text>
     </g>
     <g
-       sodipodi:insensitive="true"
        style="display:none"
        inkscape:label="[export] armorshatter"
        id="g2754"
        inkscape:groupmode="layer">
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter3259-8)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="17.623358"
          y="120.6388"
          id="text2752"><tspan
@@ -1123,67 +1646,16 @@
            x="17.623358"
            y="120.6388"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
-           id="tspan2730">789:;&lt;=&gt;?@ABCDEFGH</tspan><tspan
-           sodipodi:role="line"
-           x="17.623358"
-           y="267.11316"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
-           id="tspan2732">IJKLMNOPQRSTUVWXYZ[\</tspan><tspan
-           sodipodi:role="line"
-           x="17.623358"
-           y="413.58749"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
-           id="tspan2734">]^_`abcdefghijklmnopq</tspan><tspan
-           sodipodi:role="line"
-           x="17.623358"
-           y="560.06183"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
-           id="tspan2736">rstuvwxyz{|}~ ¡¢£¤¥¦§</tspan><tspan
-           sodipodi:role="line"
-           x="17.623358"
-           y="706.53619"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
-           id="tspan2738">¨©ª«¬­®¯°±²³´µ¶·¸¹º»¿ÀÁÂ</tspan><tspan
-           sodipodi:role="line"
-           x="17.623358"
-           y="853.01056"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
-           id="tspan2740">ÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ</tspan><tspan
-           sodipodi:role="line"
-           x="17.623358"
-           y="999.48486"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
-           id="tspan2742">×ØÙÚÛÜÝÞßàáâãäåæçèéê</tspan><tspan
-           sodipodi:role="line"
-           x="17.623358"
-           y="1145.9592"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
-           id="tspan2744">ëìíîïðñòóôõö÷øùúûüýþÿĞ</tspan><tspan
-           sodipodi:role="line"
-           x="17.623358"
-           y="1292.4336"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
-           id="tspan2746">ğİıŀŒœŞşŠšŸƒˆ˜–—‘’‚“”</tspan><tspan
-           sodipodi:role="line"
-           x="17.623358"
-           y="1438.908"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
-           id="tspan2748">„†‡•…‰‹›™∙</tspan><tspan
-           sodipodi:role="line"
-           x="17.623358"
-           y="1585.3823"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
-           id="tspan2750"></tspan></text>
+           id="tspan2750">7</tspan></text>
     </g>
     <g
-       sodipodi:insensitive="true"
        style="display:none"
        inkscape:label="[export] shadow"
        id="g2649"
        inkscape:groupmode="layer">
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter3259-8)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="17.623358"
          y="120.6388"
          id="text2647"><tspan
@@ -1194,14 +1666,13 @@
            id="tspan2645">/</tspan></text>
     </g>
     <g
-       sodipodi:insensitive="true"
        style="display:none"
        inkscape:label="[export] knight"
        id="g2390"
        inkscape:groupmode="layer">
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter3259-8)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="17.623358"
          y="120.6388"
          id="text2388"><tspan
@@ -1212,14 +1683,13 @@
            id="tspan2386">.</tspan></text>
     </g>
     <g
-       sodipodi:insensitive="true"
        style="display:none"
        inkscape:label="[export] dice"
        id="g2362"
        inkscape:groupmode="layer">
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter3259-8)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="17.623358"
          y="120.6388"
          id="text2360"><tspan
@@ -1230,14 +1700,13 @@
            id="tspan2358">-</tspan></text>
     </g>
     <g
-       sodipodi:insensitive="true"
        style="display:none"
        inkscape:label="[export] helmet"
        id="g2334"
        inkscape:groupmode="layer">
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter3259-8)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="17.623358"
          y="120.6388"
          id="text2332"><tspan
@@ -1248,14 +1717,13 @@
            id="tspan2330">,</tspan></text>
     </g>
     <g
-       sodipodi:insensitive="true"
        style="display:none"
        inkscape:label="[export] scope"
        id="g1816"
        inkscape:groupmode="layer">
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter3259-8)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="41.06086"
          y="94.271614"
          id="text1814"><tspan
@@ -1266,7 +1734,6 @@
            id="tspan1812">*</tspan></text>
     </g>
     <g
-       sodipodi:insensitive="true"
        inkscape:groupmode="layer"
        id="g1788"
        inkscape:label="[export] mallet"
@@ -1275,7 +1742,7 @@
          id="text1786"
          y="88.412239"
          x="20.553045"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter3259-8)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            id="tspan1784"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
@@ -1284,14 +1751,13 @@
            sodipodi:role="line">)</tspan></text>
     </g>
     <g
-       sodipodi:insensitive="true"
        style="display:none"
        inkscape:label="[export]  screwdriver"
        id="g1760"
        inkscape:groupmode="layer">
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter3259-8)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="29.342108"
          y="97.201302"
          id="text1758"><tspan
@@ -1302,7 +1768,6 @@
            id="tspan1756">(</tspan></text>
     </g>
     <g
-       sodipodi:insensitive="true"
        inkscape:groupmode="layer"
        id="g1732"
        inkscape:label="[export] schematic"
@@ -1311,7 +1776,7 @@
          id="text1730"
          y="91.341927"
          x="20.553043"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter3259-8)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            id="tspan1728"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
@@ -1320,14 +1785,13 @@
            sodipodi:role="line">'</tspan></text>
     </g>
     <g
-       sodipodi:insensitive="true"
        style="display:none"
-       inkscape:label="[export] poison armor"
+       inkscape:label="[export] poisonimmune"
        id="layer6"
        inkscape:groupmode="layer">
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter3259-8)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="17.623358"
          y="114.77943"
          id="text1179-4"><tspan
@@ -1338,7 +1802,6 @@
            id="tspan1177-91">&amp;</tspan></text>
     </g>
     <g
-       sodipodi:insensitive="true"
        style="display:none"
        inkscape:label="[export] lefthook"
        id="g1130"
@@ -1347,7 +1810,7 @@
          id="text1179"
          y="104.07011"
          x="23.842577"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter3259)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            id="tspan1177"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
@@ -1356,7 +1819,6 @@
            sodipodi:role="line">%</tspan></text>
     </g>
     <g
-       sodipodi:insensitive="true"
        style="display:none"
        inkscape:groupmode="layer"
        id="g1104"
@@ -1365,7 +1827,7 @@
          id="text917-7"
          y="94.271591"
          x="23.482746"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter3259-2)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            id="tspan943-0"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
@@ -1375,7 +1837,6 @@
     </g>
     <g
        style="display:none"
-       sodipodi:insensitive="true"
        inkscape:label="[export] cd-down"
        id="g1076"
        inkscape:groupmode="layer">
@@ -1383,7 +1844,7 @@
          id="text1074"
          y="101.14043"
          x="26.77227"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter3259)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            id="tspan1072"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
@@ -1392,14 +1853,13 @@
            sodipodi:role="line">#</tspan></text>
     </g>
     <g
-       sodipodi:insensitive="true"
        style="display:none"
        inkscape:groupmode="layer"
        id="layer4"
        inkscape:label="[export] unstoppable">
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter3259)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="26.77227"
          y="101.14043"
          id="text917"><tspan
