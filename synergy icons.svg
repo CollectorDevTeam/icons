@@ -21,14 +21,62 @@
   <defs
      id="defs4">
     <linearGradient
+       id="linearGradient1011"
+       inkscape:collect="always">
+      <stop
+         id="stop1007"
+         offset="0"
+         style="stop-color:#c70096;stop-opacity:1;" />
+      <stop
+         id="stop1009"
+         offset="1"
+         style="stop-color:#750354;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1003"
+       inkscape:collect="always">
+      <stop
+         id="stop999"
+         offset="0"
+         style="stop-color:#e2a9fa;stop-opacity:1" />
+      <stop
+         id="stop1001"
+         offset="1"
+         style="stop-color:#834d9c;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient995"
+       inkscape:collect="always">
+      <stop
+         id="stop991"
+         offset="0"
+         style="stop-color:#ffff00;stop-opacity:1;" />
+      <stop
+         id="stop993"
+         offset="1"
+         style="stop-color:#86711e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient985"
+       inkscape:collect="always">
+      <stop
+         id="stop981"
+         offset="0"
+         style="stop-color:#beeff5;stop-opacity:0" />
+      <stop
+         id="stop983"
+         offset="1"
+         style="stop-color:#006680;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
        inkscape:collect="always"
        id="linearGradient2972">
       <stop
-         style="stop-color:#55ddff;stop-opacity:1"
+         style="stop-color:#ff0000;stop-opacity:1"
          offset="0"
          id="stop2968" />
       <stop
-         style="stop-color:#2c89a0;stop-opacity:1"
+         style="stop-color:#800000;stop-opacity:1"
          offset="1"
          id="stop2970" />
     </linearGradient>
@@ -43,19 +91,6 @@
        r="64.536407"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(-0.00976078,0.97942283,-1.0791589,-0.01075474,123.33119,1.8498591)" />
-    <filter
-       inkscape:collect="always"
-       style="color-interpolation-filters:sRGB"
-       id="filter3020"
-       x="-0.012"
-       width="1.024"
-       y="-0.012"
-       height="1.024">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="0.71787018"
-         id="feGaussianBlur3022" />
-    </filter>
     <filter
        style="color-interpolation-filters:sRGB;"
        inkscape:label="Drop Shadow"
@@ -127,6 +162,74 @@
          stdDeviation="0.023906646"
          inkscape:collect="always" />
     </filter>
+    <radialGradient
+       r="64.536407"
+       fy="59.040653"
+       fx="59.040653"
+       cy="59.040653"
+       cx="59.040653"
+       gradientTransform="matrix(-0.00976078,0.97942283,-1.0791589,-0.01075474,123.33119,1.8498591)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient955"
+       xlink:href="#linearGradient2972"
+       inkscape:collect="always" />
+    <radialGradient
+       gradientTransform="matrix(0.11497504,1.3857279,-1.5454511,0.1282254,137.63266,-22.930662)"
+       gradientUnits="userSpaceOnUse"
+       r="64.536407"
+       fy="58.503403"
+       fx="53.352787"
+       cy="58.503403"
+       cx="53.352787"
+       id="radialGradient989"
+       xlink:href="#linearGradient985"
+       inkscape:collect="always" />
+    <radialGradient
+       gradientTransform="matrix(-0.0602482,1.1287032,-1.1117094,-0.05934041,122.62484,2.0651089)"
+       gradientUnits="userSpaceOnUse"
+       r="64.536407"
+       fy="59.125031"
+       fx="53.661953"
+       cy="59.125031"
+       cx="53.661953"
+       id="radialGradient997"
+       xlink:href="#linearGradient995"
+       inkscape:collect="always" />
+    <radialGradient
+       gradientTransform="matrix(-0.0320054,1.1336767,-0.99244362,-0.02801818,107.80431,-10.542364)"
+       gradientUnits="userSpaceOnUse"
+       r="64.536407"
+       fy="50.930416"
+       fx="55.482979"
+       cy="50.930416"
+       cx="55.482979"
+       id="radialGradient1005"
+       xlink:href="#linearGradient1003"
+       inkscape:collect="always" />
+    <radialGradient
+       gradientTransform="matrix(0.09875961,1.0017045,-0.99517496,0.09811627,101.93641,-1.8900921)"
+       gradientUnits="userSpaceOnUse"
+       r="64.536407"
+       fy="55.482979"
+       fx="51.840927"
+       cy="55.482979"
+       cx="51.840927"
+       id="radialGradient1013"
+       xlink:href="#linearGradient1011"
+       inkscape:collect="always" />
+    <filter
+       height="1.0016629"
+       y="-0.00083144318"
+       width="1.0011829"
+       x="-0.00059143931"
+       id="filter3259-5"
+       style="color-interpolation-filters:sRGB"
+       inkscape:collect="always">
+      <feGaussianBlur
+         id="feGaussianBlur3261-8"
+         stdDeviation="0.78646153"
+         inkscape:collect="always" />
+    </filter>
   </defs>
   <sodipodi:namedview
      fit-margin-bottom="0"
@@ -140,10 +243,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.32"
-     inkscape:cx="347.38992"
-     inkscape:cy="73.68219"
+     inkscape:cx="335.5689"
+     inkscape:cy="713.37685"
      inkscape:document-units="px"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="g1104"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
@@ -165,7 +268,108 @@
     </rdf:RDF>
   </metadata>
   <g
-     style="display:inline"
+     sodipodi:insensitive="true"
+     transform="translate(15.537018,15.537018)"
+     style="display:none"
+     inkscape:label="[fixed] cyan"
+     id="g953"
+     inkscape:groupmode="layer">
+    <circle
+       cy="56.25"
+       cx="56.25"
+       id="circle945"
+       style="color:#000000;overflow:visible;opacity:0.996;mix-blend-mode:normal;fill:#beeff5;fill-opacity:0.996078;stroke-width:8.34101;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       r="71.494415" />
+    <circle
+       r="64.536407"
+       style="color:#000000;overflow:visible;opacity:0.996;mix-blend-mode:normal;fill:url(#radialGradient989);fill-opacity:1;stroke-width:7.52925;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       id="circle947"
+       cx="56.25"
+       cy="56.25" />
+  </g>
+  <g
+     sodipodi:insensitive="true"
+     inkscape:groupmode="layer"
+     id="g961"
+     inkscape:label="[fixed] red"
+     style="display:none"
+     transform="translate(15.537018,15.537018)">
+    <circle
+       r="71.494415"
+       style="color:#000000;overflow:visible;opacity:0.996;mix-blend-mode:normal;fill:#f0babb;fill-opacity:1;stroke-width:8.34101;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       id="circle957"
+       cx="56.25"
+       cy="56.25" />
+    <circle
+       cy="56.25"
+       cx="56.25"
+       id="circle959"
+       style="color:#000000;overflow:visible;opacity:0.996;mix-blend-mode:normal;fill:url(#radialGradient955);fill-opacity:1;stroke-width:7.52925;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       r="64.536407" />
+  </g>
+  <g
+     sodipodi:insensitive="true"
+     transform="translate(15.537018,15.537018)"
+     style="display:none"
+     inkscape:label="[fixed] yellow"
+     id="g967"
+     inkscape:groupmode="layer">
+    <circle
+       cy="56.25"
+       cx="56.25"
+       id="circle963"
+       style="color:#000000;overflow:visible;opacity:0.996;mix-blend-mode:normal;fill:#faeebe;fill-opacity:1;stroke-width:8.34101;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       r="71.494415" />
+    <circle
+       r="64.536407"
+       style="color:#000000;overflow:visible;opacity:0.996;mix-blend-mode:normal;fill:url(#radialGradient997);fill-opacity:1;stroke-width:7.52925;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       id="circle965"
+       cx="56.25"
+       cy="56.25" />
+  </g>
+  <g
+     sodipodi:insensitive="true"
+     inkscape:groupmode="layer"
+     id="g973"
+     inkscape:label="[fixed] purple"
+     style="display:none"
+     transform="translate(15.537018,15.537018)">
+    <circle
+       r="71.494415"
+       style="color:#000000;overflow:visible;opacity:0.996;mix-blend-mode:normal;fill:#fbc7f4;fill-opacity:1;stroke-width:8.34101;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       id="circle969"
+       cx="56.25"
+       cy="56.25" />
+    <circle
+       cy="56.25"
+       cx="56.25"
+       id="circle971"
+       style="color:#000000;overflow:visible;opacity:0.996;mix-blend-mode:normal;fill:url(#radialGradient1005);fill-opacity:1;stroke-width:7.52925;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       r="64.536407" />
+  </g>
+  <g
+     sodipodi:insensitive="true"
+     transform="translate(15.537018,15.537018)"
+     style="display:none"
+     inkscape:label="[fixed] magenta"
+     id="g979"
+     inkscape:groupmode="layer">
+    <circle
+       cy="56.25"
+       cx="56.25"
+       id="circle975"
+       style="color:#000000;overflow:visible;opacity:0.996;mix-blend-mode:normal;fill:#f963d4;fill-opacity:1;stroke-width:8.34101;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       r="71.494415" />
+    <circle
+       r="64.536407"
+       style="color:#000000;overflow:visible;opacity:0.996;mix-blend-mode:normal;fill:url(#radialGradient1013);fill-opacity:1;stroke-width:7.52925;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       id="circle977"
+       cx="56.25"
+       cy="56.25" />
+  </g>
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
@@ -188,8 +392,8 @@
        id="path204"
        d="" />
     <image
-       y="-954.646"
-       x="-1346.4408"
+       y="-621.66748"
+       x="-525.01642"
        width="1214.0625"
        height="546.5625"
        preserveAspectRatio="none"
@@ -202,12 +406,78 @@
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="35.810001"
        inkscape:export-ydpi="35.810001" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter3259-5)"
+       x="-1848.5876"
+       y="-579.55652"
+       id="text1102-8"><tspan
+         sodipodi:role="line"
+         id="tspan1078-3"
+         x="-1848.5876"
+         y="-579.55652"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px">!&quot;#$%&amp;'()*+,-./01234</tspan><tspan
+         sodipodi:role="line"
+         x="-1848.5876"
+         y="-433.08218"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+         id="tspan1080-8">56789:;&lt;=&gt;?@ABCDEFGH</tspan><tspan
+         sodipodi:role="line"
+         x="-1848.5876"
+         y="-286.60782"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+         id="tspan1082-1">IJKLMNOPQRSTUVWXYZ[\</tspan><tspan
+         sodipodi:role="line"
+         x="-1848.5876"
+         y="-140.13348"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+         id="tspan1084-5">]^_`abcdefghijklmnopq</tspan><tspan
+         sodipodi:role="line"
+         x="-1848.5876"
+         y="6.3408709"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+         id="tspan1086-5">rstuvwxyz{|}~ ¡¢£¤¥¦§</tspan><tspan
+         sodipodi:role="line"
+         x="-1848.5876"
+         y="152.81522"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+         id="tspan1088-8">¨©ª«¬­®¯°±²³´µ¶·¸¹º»¿ÀÁÂ</tspan><tspan
+         sodipodi:role="line"
+         x="-1848.5876"
+         y="299.28955"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+         id="tspan1090-3">ÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ</tspan><tspan
+         sodipodi:role="line"
+         x="-1848.5876"
+         y="445.76392"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+         id="tspan1092-4">×ØÙÚÛÜÝÞßàáâãäåæçèéê</tspan><tspan
+         sodipodi:role="line"
+         x="-1848.5876"
+         y="592.23828"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+         id="tspan1094-3">ëìíîïðñòóôõö÷øùúûüýþÿĞ</tspan><tspan
+         sodipodi:role="line"
+         x="-1848.5876"
+         y="738.71259"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+         id="tspan1096-2">ğİıŀŒœŞşŠšŸƒˆ˜–—‘’‚“”</tspan><tspan
+         sodipodi:role="line"
+         x="-1848.5876"
+         y="885.18695"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+         id="tspan1098-0">„†‡•…‰‹›™∙</tspan><tspan
+         sodipodi:role="line"
+         x="-1848.5876"
+         y="1031.6613"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+         id="tspan1100-7"></tspan></text>
   </g>
   <g
-     inkscape:label="charmap"
+     inkscape:label="black"
      id="layer2"
      inkscape:groupmode="layer"
-     style="display:inline;mix-blend-mode:normal;filter:url(#filter3259);opacity:1"
+     style="display:inline;opacity:1;mix-blend-mode:normal;filter:url(#filter3259)"
      transform="translate(15.537018,15.537018)">
     <text
        id="text524"
@@ -220,67 +490,6 @@
          x="-12960.938"
          id="tspan522"
          sodipodi:role="line" /></text>
-    <text
-       id="text528"
-       y="-139.88763"
-       x="218.80904"
-       style="font-size:113.781px;line-height:125%;font-family:Marvel;-inkscape-font-specification:'Marvel, Normal';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       xml:space="preserve"><tspan
-         style="font-size:113.781px;fill:#000000;stroke:none;stroke-width:0.9375px"
-         y="-139.88763"
-         x="218.80904"
-         id="tspan526"
-         sodipodi:role="line">!#$%&amp;'()*+,-./1234</tspan><tspan
-         style="font-size:113.781px;fill:#000000;stroke:none;stroke-width:0.9375px"
-         y="2.3386161"
-         x="218.80904"
-         sodipodi:role="line"
-         id="tspan2012">789:;=&gt;?@ABCDEFGHI</tspan><tspan
-         style="font-size:113.781px;fill:#000000;stroke:none;stroke-width:0.9375px"
-         y="144.56487"
-         x="218.80904"
-         sodipodi:role="line"
-         id="tspan2014">JKLMNOPQRSTUVWXYZ[</tspan><tspan
-         style="font-size:113.781px;fill:#000000;stroke:none;stroke-width:0.9375px"
-         y="286.79111"
-         x="218.80904"
-         sodipodi:role="line"
-         id="tspan2016">\]^_abcdefghijklmn</tspan><tspan
-         style="font-size:113.781px;fill:#000000;stroke:none;stroke-width:0.9375px"
-         y="429.01736"
-         x="218.80904"
-         sodipodi:role="line"
-         id="tspan2018">opqrstuvwxyz{|}¢£¤</tspan><tspan
-         style="font-size:113.781px;fill:#000000;stroke:none;stroke-width:0.9375px"
-         y="571.24359"
-         x="218.80904"
-         sodipodi:role="line"
-         id="tspan2020">¥¦§©ª«¬­®°±²³¶»ÀÁÂÃÄ</tspan><tspan
-         style="font-size:113.781px;fill:#000000;stroke:none;stroke-width:0.9375px"
-         y="713.46985"
-         x="218.80904"
-         sodipodi:role="line"
-         id="tspan2022">ÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ</tspan><tspan
-         style="font-size:113.781px;fill:#000000;stroke:none;stroke-width:0.9375px"
-         y="855.69611"
-         x="218.80904"
-         sodipodi:role="line"
-         id="tspan2024">×ÙÚÛÜÝÞßàáâãäåæçèé</tspan><tspan
-         style="font-size:113.781px;fill:#000000;stroke:none;stroke-width:0.9375px"
-         y="997.92236"
-         x="218.80904"
-         sodipodi:role="line"
-         id="tspan2026">êëìíîïðñòóôõ÷ûüýÿŒœ</tspan><tspan
-         style="font-size:113.781px;fill:#000000;stroke:none;stroke-width:0.9375px"
-         y="1140.1486"
-         x="218.80904"
-         sodipodi:role="line"
-         id="tspan2028">ŠŸƒˆ˜–—‘’‚“”„†‡•…‰</tspan><tspan
-         style="font-size:113.781px;fill:#000000;stroke:none;stroke-width:0.9375px"
-         y="1282.3749"
-         x="218.80904"
-         sodipodi:role="line"
-         id="tspan2030">‹</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.7812px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -318,68 +527,6 @@
          x="-630.77142"
          y="28.408295"
          style="stroke-width:0.9375px" /></text>
-    <text
-       xml:space="preserve"
-       style="font-size:121.366px;line-height:125%;font-family:Marvel;-inkscape-font-specification:'Marvel, Normal';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;display:inline;opacity:1;mix-blend-mode:normal;fill:#acafac;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter3259)"
-       x="0.059260938"
-       y="85.039444"
-       id="text528-7"
-       transform="matrix(0.93750001,0,0,0.93750001,-1471.9351,-221.5786)"><tspan
-         sodipodi:role="line"
-         id="tspan526-4"
-         x="0.059260938"
-         y="85.039444"
-         style="font-size:121.366px;fill:#acafac;fill-opacity:1;stroke:none;stroke-width:1px">!#$%&amp;'()*+,-./1234</tspan><tspan
-         id="tspan2012-2"
-         sodipodi:role="line"
-         x="0.059260938"
-         y="236.74693"
-         style="font-size:121.366px;fill:#acafac;fill-opacity:1;stroke:none;stroke-width:1px">789:;=&gt;?@ABCDEFGHI</tspan><tspan
-         id="tspan2014-0"
-         sodipodi:role="line"
-         x="0.059260938"
-         y="388.45441"
-         style="font-size:121.366px;fill:#acafac;fill-opacity:1;stroke:none;stroke-width:1px">JKLMNOPQRSTUVWXYZ[</tspan><tspan
-         id="tspan2016-5"
-         sodipodi:role="line"
-         x="0.059260938"
-         y="540.16187"
-         style="font-size:121.366px;fill:#acafac;fill-opacity:1;stroke:none;stroke-width:1px">\]^_abcdefghijklmn</tspan><tspan
-         id="tspan2018-1"
-         sodipodi:role="line"
-         x="0.059260938"
-         y="691.86938"
-         style="font-size:121.366px;fill:#acafac;fill-opacity:1;stroke:none;stroke-width:1px">opqrstuvwxyz{|}¢£¤</tspan><tspan
-         id="tspan2020-6"
-         sodipodi:role="line"
-         x="0.059260938"
-         y="843.57684"
-         style="font-size:121.366px;fill:#acafac;fill-opacity:1;stroke:none;stroke-width:1px">¥¦§©ª«¬­®°±²³¶»ÀÁÂÃÄ</tspan><tspan
-         id="tspan2022-3"
-         sodipodi:role="line"
-         x="0.059260938"
-         y="995.28436"
-         style="font-size:121.366px;fill:#acafac;fill-opacity:1;stroke:none;stroke-width:1px">ÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ</tspan><tspan
-         id="tspan2024-3"
-         sodipodi:role="line"
-         x="0.059260938"
-         y="1146.9918"
-         style="font-size:121.366px;fill:#acafac;fill-opacity:1;stroke:none;stroke-width:1px">×ÙÚÛÜÝÞßàáâãäåæçèé</tspan><tspan
-         id="tspan2026-6"
-         sodipodi:role="line"
-         x="0.059260938"
-         y="1298.6993"
-         style="font-size:121.366px;fill:#acafac;fill-opacity:1;stroke:none;stroke-width:1px">êëìíîïðñòóôõ÷ûüýÿŒœ</tspan><tspan
-         id="tspan2028-3"
-         sodipodi:role="line"
-         x="0.059260938"
-         y="1450.4067"
-         style="font-size:121.366px;fill:#acafac;fill-opacity:1;stroke:none;stroke-width:1px">ŠŸƒˆ˜–—‘’‚“”„†‡•…‰</tspan><tspan
-         id="tspan2030-7"
-         sodipodi:role="line"
-         x="0.059260938"
-         y="1602.1143"
-         style="font-size:121.366px;fill:#acafac;fill-opacity:1;stroke:none;stroke-width:1px">‹</tspan></text>
     <text
        id="text528-7-6"
        y="85.193909"
@@ -485,16 +632,230 @@
          x="0.059260938"
          sodipodi:role="line"
          id="tspan3943">A</tspan></text>
+    <g
+       inkscape:label="unstoppable"
+       id="layer4"
+       inkscape:groupmode="layer">
+      <text
+         id="text917"
+         y="101.14043"
+         x="26.77227"
+         style="display:inline;opacity:1;mix-blend-mode:normal;filter:url(#filter3259);font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           y="101.14043"
+           x="26.77227"
+           id="tspan915"
+           sodipodi:role="line">!&quot;#$%&amp;'()*+,-./01234</tspan><tspan
+           id="tspan919"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           y="247.61478"
+           x="26.77227"
+           sodipodi:role="line">56789:;&lt;=&gt;?@ABCDEFGH</tspan><tspan
+           id="tspan921"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           y="394.08911"
+           x="26.77227"
+           sodipodi:role="line">IJKLMNOPQRSTUVWXYZ[\</tspan><tspan
+           id="tspan923"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           y="540.56348"
+           x="26.77227"
+           sodipodi:role="line">]^_`abcdefghijklmnopq</tspan><tspan
+           id="tspan925"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           y="687.03784"
+           x="26.77227"
+           sodipodi:role="line">rstuvwxyz{|}~ ¡¢£¤¥¦§</tspan><tspan
+           id="tspan927"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           y="833.51215"
+           x="26.77227"
+           sodipodi:role="line">¨©ª«¬­®¯°±²³´µ¶·¸¹º»¿ÀÁÂ</tspan><tspan
+           id="tspan929"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           y="979.98651"
+           x="26.77227"
+           sodipodi:role="line">ÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ</tspan><tspan
+           id="tspan931"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           y="1126.4608"
+           x="26.77227"
+           sodipodi:role="line">×ØÙÚÛÜÝÞßàáâãäåæçèéê</tspan><tspan
+           id="tspan933"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           y="1272.9352"
+           x="26.77227"
+           sodipodi:role="line">ëìíîïðñòóôõö÷øùúûüýþÿĞ</tspan><tspan
+           id="tspan937"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           y="1419.4095"
+           x="26.77227"
+           sodipodi:role="line">ğİıŀŒœŞşŠšŸƒˆ˜–—‘’‚“”</tspan><tspan
+           id="tspan941"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           y="1565.8839"
+           x="26.77227"
+           sodipodi:role="line">„†‡•…‰‹›™∙</tspan><tspan
+           id="tspan943"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           y="1712.3583"
+           x="26.77227"
+           sodipodi:role="line"></tspan></text>
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="g1076"
+       inkscape:label="cd-down">
+      <text
+         xml:space="preserve"
+         style="display:inline;opacity:1;mix-blend-mode:normal;filter:url(#filter3259);font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="26.77227"
+         y="101.14043"
+         id="text1074"><tspan
+           sodipodi:role="line"
+           id="tspan1050"
+           x="26.77227"
+           y="101.14043"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px">!&quot;#$%&amp;'()*+,-./01234</tspan><tspan
+           sodipodi:role="line"
+           x="26.77227"
+           y="247.61478"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan1052">56789:;&lt;=&gt;?@ABCDEFGH</tspan><tspan
+           sodipodi:role="line"
+           x="26.77227"
+           y="394.08911"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan1054">IJKLMNOPQRSTUVWXYZ[\</tspan><tspan
+           sodipodi:role="line"
+           x="26.77227"
+           y="540.56348"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan1056">]^_`abcdefghijklmnopq</tspan><tspan
+           sodipodi:role="line"
+           x="26.77227"
+           y="687.03784"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan1058">rstuvwxyz{|}~ ¡¢£¤¥¦§</tspan><tspan
+           sodipodi:role="line"
+           x="26.77227"
+           y="833.51215"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan1060">¨©ª«¬­®¯°±²³´µ¶·¸¹º»¿ÀÁÂ</tspan><tspan
+           sodipodi:role="line"
+           x="26.77227"
+           y="979.98651"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan1062">ÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ</tspan><tspan
+           sodipodi:role="line"
+           x="26.77227"
+           y="1126.4608"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan1064">×ØÙÚÛÜÝÞßàáâãäåæçèéê</tspan><tspan
+           sodipodi:role="line"
+           x="26.77227"
+           y="1272.9352"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan1066">ëìíîïðñòóôõö÷øùúûüýþÿĞ</tspan><tspan
+           sodipodi:role="line"
+           x="26.77227"
+           y="1419.4095"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan1068">ğİıŀŒœŞşŠšŸƒˆ˜–—‘’‚“”</tspan><tspan
+           sodipodi:role="line"
+           x="26.77227"
+           y="1565.8839"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan1070">„†‡•…‰‹›™∙</tspan><tspan
+           sodipodi:role="line"
+           x="26.77227"
+           y="1712.3583"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           id="tspan1072"></tspan></text>
+    </g>
+    <g
+       inkscape:label="baseballbat"
+       id="g1104"
+       inkscape:groupmode="layer">
+      <text
+         id="text1102"
+         y="101.14043"
+         x="26.77227"
+         style="display:inline;opacity:1;mix-blend-mode:normal;filter:url(#filter3259);font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           y="101.14043"
+           x="26.77227"
+           id="tspan1078"
+           sodipodi:role="line">!&quot;#$%&amp;'()*+,-./01234</tspan><tspan
+           id="tspan1080"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           y="247.61478"
+           x="26.77227"
+           sodipodi:role="line">56789:;&lt;=&gt;?@ABCDEFGH</tspan><tspan
+           id="tspan1082"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           y="394.08911"
+           x="26.77227"
+           sodipodi:role="line">IJKLMNOPQRSTUVWXYZ[\</tspan><tspan
+           id="tspan1084"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           y="540.56348"
+           x="26.77227"
+           sodipodi:role="line">]^_`abcdefghijklmnopq</tspan><tspan
+           id="tspan1086"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           y="687.03784"
+           x="26.77227"
+           sodipodi:role="line">rstuvwxyz{|}~ ¡¢£¤¥¦§</tspan><tspan
+           id="tspan1088"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           y="833.51215"
+           x="26.77227"
+           sodipodi:role="line">¨©ª«¬­®¯°±²³´µ¶·¸¹º»¿ÀÁÂ</tspan><tspan
+           id="tspan1090"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           y="979.98651"
+           x="26.77227"
+           sodipodi:role="line">ÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ</tspan><tspan
+           id="tspan1092"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           y="1126.4608"
+           x="26.77227"
+           sodipodi:role="line">×ØÙÚÛÜÝÞßàáâãäåæçèéê</tspan><tspan
+           id="tspan1094"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           y="1272.9352"
+           x="26.77227"
+           sodipodi:role="line">ëìíîïðñòóôõö÷øùúûüýþÿĞ</tspan><tspan
+           id="tspan1096"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           y="1419.4095"
+           x="26.77227"
+           sodipodi:role="line">ğİıŀŒœŞşŠšŸƒˆ˜–—‘’‚“”</tspan><tspan
+           id="tspan1098"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           y="1565.8839"
+           x="26.77227"
+           sodipodi:role="line">„†‡•…‰‹›™∙</tspan><tspan
+           id="tspan1100"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+           y="1712.3583"
+           x="26.77227"
+           sodipodi:role="line"></tspan></text>
+    </g>
   </g>
   <g
+     sodipodi:insensitive="true"
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="armorup"
-     style="display:inline;"
+     style="display:none"
      transform="translate(15.537018,15.537018)">
     <circle
        r="71.494415"
-       style="color:#000000;overflow:visible;opacity:0.996;mix-blend-mode:normal;fill:#beeff5;fill-opacity:0.99607843;stroke-width:8.34101;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       style="color:#000000;overflow:visible;opacity:0.996;mix-blend-mode:normal;fill:#beeff5;fill-opacity:0.996078;stroke-width:8.34101;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
        id="circle3255"
        cx="56.25"
        cy="56.25" />
