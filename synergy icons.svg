@@ -15,11 +15,35 @@
    version="1.1"
    inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
    sodipodi:docname="synergy icons.svg"
-   inkscape:export-filename="Z:\github\icons\red\teamup.png"
+   inkscape:export-filename="Z:\github\icons\violet\combatpowerrate.png"
    inkscape:export-xdpi="40.959999"
    inkscape:export-ydpi="40.959999">
   <defs
      id="defs4">
+    <linearGradient
+       id="linearGradient4118"
+       inkscape:collect="always">
+      <stop
+         id="stop4114"
+         offset="0"
+         style="stop-color:#00d400;stop-opacity:1;" />
+      <stop
+         id="stop4116"
+         offset="1"
+         style="stop-color:#005500;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4101"
+       inkscape:collect="always">
+      <stop
+         id="stop4097"
+         offset="0"
+         style="stop-color:#ff6600;stop-opacity:1" />
+      <stop
+         id="stop4099"
+         offset="1"
+         style="stop-color:#aa4400;stop-opacity:1" />
+    </linearGradient>
     <linearGradient
        id="linearGradient1011"
        inkscape:collect="always">
@@ -116,13 +140,13 @@
        inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
        id="filter3259"
-       x="-0.00059143931"
-       width="1.0011829"
-       y="-0.00083144318"
-       height="1.0016629">
+       x="-0.000984979"
+       width="1.00197"
+       y="-0.00066749901"
+       height="1.001335">
       <feGaussianBlur
          inkscape:collect="always"
-         stdDeviation="0.78646153"
+         stdDeviation="0.35865572"
          id="feGaussianBlur3261" />
     </filter>
     <filter
@@ -185,7 +209,7 @@
        xlink:href="#linearGradient995"
        inkscape:collect="always" />
     <radialGradient
-       gradientTransform="matrix(-0.0629526,2.2298705,-1.952074,-0.05510999,235.86706,3.0866271)"
+       gradientTransform="matrix(0.08231424,1.9393368,-1.9510951,0.08281331,227.75737,12.18181)"
        gradientUnits="userSpaceOnUse"
        r="64.536407"
        fy="50.930416"
@@ -12312,6 +12336,76 @@
          id="feComposite4055"
          in2="offset" />
     </filter>
+    <radialGradient
+       gradientTransform="matrix(-0.02954173,0.97487749,-0.99954118,-0.03028911,288.16716,0.34702099)"
+       gradientUnits="userSpaceOnUse"
+       r="126.93904"
+       fy="147.58368"
+       fx="146.00412"
+       cy="147.58368"
+       cx="146.00412"
+       id="radialGradient4105"
+       xlink:href="#linearGradient4101"
+       inkscape:collect="always" />
+    <radialGradient
+       gradientTransform="matrix(0.04431261,0.97487734,-0.99896857,0.04540697,255.66121,4.5840909)"
+       gradientUnits="userSpaceOnUse"
+       r="126.93904"
+       fy="134.46298"
+       fx="126.96298"
+       cy="134.46298"
+       cx="126.96298"
+       id="radialGradient4120"
+       xlink:href="#linearGradient4118"
+       inkscape:collect="always" />
+    <filter
+       inkscape:label="Drop Shadow"
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB;"
+       id="filter3259-5-6"
+       x="-0.00059143931"
+       width="1.0011829"
+       y="-0.00083144318"
+       height="1.0016629">
+      <feGaussianBlur
+         result="fbSourceGraphic"
+         inkscape:collect="always"
+         stdDeviation="0.78646153"
+         id="feGaussianBlur3261-8-3" />
+      <feColorMatrix
+         id="feColorMatrix4276"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <feFlood
+         in="fbSourceGraphic"
+         result="flood"
+         flood-color="rgb(0,0,0)"
+         flood-opacity="1"
+         id="feFlood4278" />
+      <feComposite
+         result="composite1"
+         operator="in"
+         in="flood"
+         id="feComposite4281"
+         in2="fbSourceGraphic" />
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="0"
+         in="composite1"
+         id="feGaussianBlur4283" />
+      <feOffset
+         result="offset"
+         dy="3"
+         dx="3"
+         id="feOffset4285" />
+      <feComposite
+         result="composite2"
+         operator="over"
+         in="fbSourceGraphic"
+         id="feComposite4287"
+         in2="offset" />
+    </filter>
   </defs>
   <sodipodi:namedview
      units="px"
@@ -12325,17 +12419,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.50000001"
-     inkscape:cx="-52.932136"
-     inkscape:cy="-13.58986"
+     inkscape:zoom="0.3535534"
+     inkscape:cx="1123.1155"
+     inkscape:cy="398.53543"
      inkscape:document-units="px"
-     inkscape:current-layer="g953"
+     inkscape:current-layer="g241934"
      showgrid="false"
-     inkscape:window-width="1524"
-     inkscape:window-height="1009"
-     inkscape:window-x="1917"
-     inkscape:window-y="30"
-     inkscape:window-maximized="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
      showguides="false"
      inkscape:document-rotation="0" />
   <metadata
@@ -12374,8 +12468,8 @@
        id="path204"
        d="" />
     <image
-       y="-600.75439"
-       x="-505.75223"
+       y="-1096.613"
+       x="-468.62909"
        width="1214.0625"
        height="546.5625"
        preserveAspectRatio="none"
@@ -12477,12 +12571,12 @@
          sodipodi:role="line">IJKLMNOPQRSTUVWXYZ[\</tspan><tspan
          id="tspan1084-5-5"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
-         y="54.234005"
+         y="54.234016"
          x="533.66443"
          sodipodi:role="line">]^_`abcdefghijklmnopq</tspan><tspan
          id="tspan1086-5-4"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
-         y="200.70837"
+         y="200.70836"
          x="533.66443"
          sodipodi:role="line">rstuvwxyz{|}~ ¡¢£¤¥¦§</tspan><tspan
          id="tspan1088-8-8"
@@ -12492,17 +12586,17 @@
          sodipodi:role="line">¨©ª«¬­®¯°±²³´µ¶·¸¹º»¿ÀÁÂ</tspan><tspan
          id="tspan1090-3-6"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
-         y="493.65707"
+         y="493.65704"
          x="533.66443"
          sodipodi:role="line">ÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ</tspan><tspan
          id="tspan1092-4-9"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
-         y="640.13135"
+         y="640.13141"
          x="533.66443"
          sodipodi:role="line">×ØÙÚÛÜÝÞßàáâãäåæçèéê</tspan><tspan
          id="tspan1094-3-9"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
-         y="786.60571"
+         y="786.60577"
          x="533.66443"
          sodipodi:role="line">ëìíîïðñòóôõö÷øùúûüýþÿĞ</tspan><tspan
          id="tspan1096-2-6"
@@ -12519,7 +12613,12 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
          y="1226.0288"
          x="533.66443"
-         sodipodi:role="line"></tspan></text>
+         sodipodi:role="line"></tspan><tspan
+         id="tspan4295"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;font-family:Marvel;-inkscape-font-specification:Marvel;stroke-width:0.9375px"
+         y="1366.6538"
+         x="533.66443"
+         sodipodi:role="line" /></text>
   </g>
   <g
      sodipodi:insensitive="true"
@@ -12544,7 +12643,7 @@
   <g
      sodipodi:insensitive="true"
      transform="translate(6.1620178,6.1620178)"
-     style="display:inline"
+     style="display:none"
      inkscape:label="[fixed] cyan"
      id="g953"
      inkscape:groupmode="layer">
@@ -12562,12 +12661,31 @@
        cy="134.46298" />
   </g>
   <g
+     inkscape:groupmode="layer"
+     id="g4126"
+     inkscape:label="[fixed] violet"
+     style="display:inline"
+     transform="translate(6.1620178,6.1620178)">
+    <circle
+       style="color:#000000;overflow:visible;opacity:0.996;mix-blend-mode:normal;fill:#aaaaff;fill-opacity:0.996078;stroke-width:16.4063;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       id="circle4122"
+       cx="134.46298"
+       cy="134.46298"
+       r="140.625" />
+    <circle
+       cy="134.46298"
+       cx="134.46298"
+       id="circle4124"
+       style="color:#000000;overflow:visible;opacity:0.996;mix-blend-mode:normal;fill:#000080;fill-opacity:1;stroke-width:14.8096;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       r="126.93904" />
+  </g>
+  <g
+     sodipodi:insensitive="true"
      transform="translate(6.1620178,6.1620178)"
      style="display:none"
      inkscape:label="[fixed] yellow"
      id="g967"
-     inkscape:groupmode="layer"
-     sodipodi:insensitive="true">
+     inkscape:groupmode="layer">
     <circle
        r="140.625"
        cy="134.46298"
@@ -12583,11 +12701,50 @@
   </g>
   <g
      inkscape:groupmode="layer"
+     id="g4112"
+     inkscape:label="[fixed] green"
+     style="display:none"
+     transform="translate(6.1620178,6.1620178)">
+    <circle
+       style="color:#000000;overflow:visible;opacity:0.996;mix-blend-mode:normal;fill:#aaffaa;fill-opacity:1;stroke-width:16.4063;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       id="circle4108"
+       cx="134.46298"
+       cy="134.46298"
+       r="140.625" />
+    <circle
+       cy="134.46298"
+       cx="134.46298"
+       id="circle4110"
+       style="color:#000000;overflow:visible;opacity:0.996;mix-blend-mode:normal;fill:url(#radialGradient4120);fill-opacity:1;stroke-width:14.8096;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       r="126.93904" />
+  </g>
+  <g
+     sodipodi:insensitive="true"
+     inkscape:groupmode="layer"
+     id="g4095"
+     inkscape:label="[fixed] orange"
+     style="display:none"
+     transform="translate(6.1620178,6.1620178)">
+    <circle
+       style="color:#000000;overflow:visible;opacity:0.996;mix-blend-mode:normal;fill:#ffccaa;fill-opacity:1;stroke-width:16.4063;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       id="circle4091"
+       cx="134.46298"
+       cy="134.46298"
+       r="140.625" />
+    <circle
+       cy="134.46298"
+       cx="134.46298"
+       id="circle4093"
+       style="color:#000000;overflow:visible;opacity:0.996;mix-blend-mode:normal;fill:url(#radialGradient4105);fill-opacity:1;stroke-width:14.8096;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       r="126.93904" />
+  </g>
+  <g
+     sodipodi:insensitive="true"
+     inkscape:groupmode="layer"
      id="g973"
      inkscape:label="[fixed] purple"
      style="display:none"
-     transform="translate(6.1620178,6.1620178)"
-     sodipodi:insensitive="true">
+     transform="translate(6.1620178,6.1620178)">
     <circle
        r="140.625"
        style="color:#000000;overflow:visible;opacity:0.996;mix-blend-mode:normal;fill:#fbc7f4;fill-opacity:1;stroke-width:16.4063;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
@@ -12622,10 +12779,30 @@
        cy="134.46298" />
   </g>
   <g
+     sodipodi:insensitive="true"
+     inkscape:groupmode="layer"
+     id="g4293"
+     inkscape:label="[fixed] pink"
+     style="display:none;mix-blend-mode:normal"
+     transform="translate(6.1620178,6.1620178)">
+    <circle
+       style="color:#000000;overflow:visible;opacity:0.996;mix-blend-mode:normal;fill:#ff00ff;fill-opacity:1;stroke-width:16.4063;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       id="circle4289"
+       cx="134.46298"
+       cy="134.46298"
+       r="140.625" />
+    <circle
+       cy="134.46298"
+       cx="134.46298"
+       id="circle4291"
+       style="color:#000000;overflow:visible;opacity:0.996;mix-blend-mode:normal;fill:#ff00ff;fill-opacity:1;stroke:none;stroke-width:14.8096;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:stroke fill markers"
+       r="126.93904" />
+  </g>
+  <g
      inkscape:label="white"
      id="layer2"
      inkscape:groupmode="layer"
-     style="display:inline;opacity:1;mix-blend-mode:normal;filter:url(#filter3259)"
+     style="display:inline;opacity:1;mix-blend-mode:normal;"
      transform="translate(6.1620178,6.1620178)">
     <text
        id="text524"
@@ -13088,6 +13265,23 @@
            x="17.962645"
            sodipodi:role="line"
            id="tspan902797"></tspan></text>
+    </g>
+    <g
+       style="display:none"
+       inkscape:label="[export] diamond"
+       id="layer5"
+       inkscape:groupmode="layer">
+      <text
+         id="text1102-8-2"
+         y="210.24759"
+         x="59.920742"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:221.25px;line-height:125%;font-family:Nunito;-inkscape-font-specification:Nunito;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;mix-blend-mode:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter3259-5-6)"
+         xml:space="preserve"><tspan
+           id="tspan1100-7-4"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:221.25px;font-family:Marvel;-inkscape-font-specification:Marvel;fill:#ffffff;stroke-width:0.9375px"
+           y="210.24759"
+           x="59.920742"
+           sodipodi:role="line">›</tspan></text>
     </g>
     <g
        inkscape:groupmode="layer"
