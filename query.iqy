@@ -1,0 +1,16 @@
+WEB
+1
+https://sdicgm.sharepoint.com/support/_vti_bin/owssvr.dll?XMLDATA=1&List={706E4676-6A41-4284-90FF-9153563DE31B}&View=75A16E9E-4B5A-4D6E-B15B-35A96EF2C36C&RowLimit=0&RootFolder=%2fsupport%2fSDI%20Manuals%2fArchive%2fpm%5fpe
+
+Selection={706E4676-6A41-4284-90FF-9153563DE31B}-75A16E9E-4B5A-4D6E-B15B-35A96EF2C36C
+EditWebPage=
+Formatting=None
+PreFormattedTextToColumns=True
+ConsecutiveDelimitersAsOne=True
+SingleBlockTextImport=False
+DisableDateRecognition=False
+DisableRedirections=False
+SharePointApplication=https://sdicgm.sharepoint.com/support/_vti_bin
+SharePointListView=75A16E9E-4B5A-4D6E-B15B-35A96EF2C36C
+SharePointListName={706E4676-6A41-4284-90FF-9153563DE31B}
+RootFolder=/support/SDI%20Manuals/Archive/pm%5fpe
